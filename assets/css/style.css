@@ -1,0 +1,97 @@
+/* page element styling */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* body tag styling */
+body {
+    background-color: rgb(209, 248, 248);
+}
+
+/* header tag styling */
+ header {
+     background-color: rgb(27, 27, 78);
+     border-bottom: 8px solid black;
+     margin-bottom: 25px;
+ }
+
+ /* h1 tag styling for header */
+ header h1 {
+    color: white;
+    text-align: center;
+    font-size: 44px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 25px;
+    min-height: 100px;
+    margin-bottom: -25px;
+ }
+
+ /* h3 tag styling for header */
+header h3 {
+    color: white;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: -15px;
+}
+
+.dayContainer {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 15px;
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 1px;
+    background-color:rgb(146, 173, 224);
+}
+
+.btn {
+    background-color: rgb(114, 179, 179);
+    font-size: 24px;
+    border-radius: 1px;
+    padding: 20px;
+    border-left: 4px solid black;
+    cursor: pointer;
+}
+
+.btn i {
+    font-size: 36px;
+}
+
+.btn:hover {
+    background-color:rgb(199, 235, 247);
+}
+
+input {
+    padding: 25px;
+    border-radius: 1px;
+    min-width: 500px;
+    background-color: rgb(224, 225, 226);
+    font-size: 18px;
+}
+
+.hoursCont {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: black;
+    min-width: 100px;
+}
+
+.hoursCont p {
+    font-size: 24px;
+}
+
+hr {
+    width: 100%;
+}
+
+footer {
+    margin: 2px;
+}
+
+
+
