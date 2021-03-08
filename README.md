@@ -1,3 +1,3 @@
 # Daily-Scheduling-Program
 
-![alt text](assets/images/screenshot (32).png)
+![alt text](assets/images/Screenshot (32).png)
